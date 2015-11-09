@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!doctype html>
+
+<html lang="en" ng-app="BotApp">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bot</title>
+{#  <link rel="stylesheet" href="css/styles.css?v=1.0">#}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap-theme.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <script src="{% static 'vendor/angularjs/scrollglue.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+    <script src="{% static 'js/services/api.js' %}"></script>
+    <script src="{% static 'js/services/BotService.js' %}"></script>
+    <script src="{% static 'js/services/MessageService.js' %}"></script>
+    <script src="{% static 'js/services/LoginService.js' %}"></script>
+</head>
+
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>

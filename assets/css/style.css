@@ -1,0 +1,12 @@
+#command {
+
+}
+
+#chat_text {
+    height: 300px;
+    overflow: scroll;
+}
+
+.nick {
+    font-weight: bold;
+}
