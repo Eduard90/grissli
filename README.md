@@ -1,6 +1,8 @@
 # grissli
 Test job
 
+Python 3 only
+
 Тестовое задание.
 Запуск:
 ~~python manager.py runserver~~.
